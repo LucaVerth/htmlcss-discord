@@ -1,3 +1,4 @@
+/* GLOBAL */
 *{
   margin: 0;
   padding: 0;
@@ -7,13 +8,16 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  /* color: #2327a2; */
 }
 
 .container{
   width: 90%;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.background{
+  background-color: #fff;
 }
 
 .background:nth-child(even){
@@ -97,6 +101,10 @@ header{
   float: right;
 }
 
+#registrati{
+  float: right;
+}
+
 /* jumbotron */
 .jumbotron{
   height: 547px;
@@ -153,6 +161,9 @@ header{
 }
 
 /* banner bot */
+.bottom-message{
+  background-color: #F6F6F6;
+}
 .banner-bot{
   width: 100%;
   text-align: center;
@@ -164,6 +175,7 @@ header{
 }
 
 .message-motto{
+  height: 180px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -211,6 +223,7 @@ footer h4, .txtcolor{
 .social-links{
   margin-bottom: 40px;
 }
+
 .social-links img{
   width: 40px;
   vertical-align: middle;
@@ -229,10 +242,20 @@ footer h4, .txtcolor{
 
 .footer-links ul li{
   list-style-type: none;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .footer-links ul li a{
   text-decoration: none;
   color: #fff;
+}
+
+.footer-links ul li a:hover{
+  text-decoration: underline;
+}
+
+.bot-page{
+  padding-bottom: 30px;
+  border-bottom: 2px solid #748BDD;
+  margin-bottom: 60px;
 }
