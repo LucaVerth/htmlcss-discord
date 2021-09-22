@@ -16,6 +16,9 @@ body{
   margin: 0 auto;
 }
 
+.background:nth-child(even){
+  background-color: #F6F6F6;
+}
 
 .clearfix::after{
   content: "";
@@ -123,6 +126,7 @@ header{
 .sections{
   margin-bottom: 100px;
 }
+
 .floatimg, .description{
   float: left;
   margin-right: 40px;
@@ -146,4 +150,11 @@ header{
 /* banner bot */
 .banner-bot{
   width: 100%;
+  text-align: center;
 }
+
+.banner-bot h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
